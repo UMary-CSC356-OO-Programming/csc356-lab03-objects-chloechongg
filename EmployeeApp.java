@@ -137,9 +137,7 @@ public class EmployeeApp
 							if (inputSalary < 0 ){
 								inputSalary = 0.0;
 							}
-							else{
-								continue;
-							}
+
 						employees[empCount].setSalary( inputSalary ); //added employees' info set
 
 						empCount++; //increment employee count
